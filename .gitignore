@@ -1,5 +1,4 @@
 venvv/
 __pycache__/
 *.pyc
-frases_aleman.json
 .env
