@@ -1,25 +1,79 @@
-# Bot de frases en alemán 🇩🇪
+ 1. README.md ajustado a tu `importos.py`
 
-Mi nombre es **Josue**, soy estudiante de Educación en Idiomas.  
-He creado este bot de Telegram con el propósito de aprender frases esenciales del alemán, divididas en varias categorías.
+Aquí tienes la versión lista en **Markdown** 👇
 
-## 🚀 Instalación
+````markdown
+# 🤖 Bot de frases esenciales en alemán 🇩🇪
 
-1. Clonar el repositorio:
+¡Hallo! 👋  
+Soy Josué, estudiante de Educación en Idiomas. He creado este bot de Telegram con el propósito de **aprender frases esenciales en alemán** organizadas en categorías temáticas.
+
+---
+
+## 📌 Características
+- Frases divididas en categorías (saludos, viajes, restaurante, compras, emergencias, conversación).
+- Puedes pedir frases aleatorias o elegir una categoría con botones.
+- Útil para estudiantes principiantes de alemán. 🇩🇪
+
+---
+
+## ⚙️ Instalación
+
+1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/turepositorio.git
-   cd turepositorio
-2. Crear entorno virtual e instalar dependencias:
+   git clone https://github.com/Yato-12/telegram_bot.git
+   cd telegram_bot
+````
 
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-pip install -r requirements.txt
+2. (Opcional) Crea un entorno virtual:
 
-3. Configurar variables de entorno en un archivo .env:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate      # En Windows
+   source venv/bin/activate   # En Linux/Mac
+   ```
 
-TELEGRAM_TOKEN=tu_token_aqui
+3. Instala las dependencias:
 
-4. Ejecutar:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+4. Crea un archivo `.env` en la raíz del proyecto con tu token de Telegram:
+
+   ```
+   TELEGRAM_TOKEN=tu_token_aqui
+   ```
+
+---
+
+## ▶️ Ejecución
+
+Inicia el bot con:
+
+```bash
 python importos.py
+```
+
+Si el `.json` no existe, el bot lo generará automáticamente.
+
+---
+
+## 💬 Ejemplo de uso en Telegram
+
+* Escribe `/start` → muestra el menú con botones de categorías.
+* Escribe `/frase` → muestra una frase aleatoria de cualquier categoría.
+* Pulsa un botón (ejemplo: *Saludos*) → muestra una frase dentro de esa categoría.
+
+---
+
+## 📚 Propósito educativo
+
+Este bot no busca reemplazar un curso completo de alemán, sino servir como **herramienta práctica** para memorizar y practicar frases útiles en el día a día.
+
+---
+
+👨‍💻 Autor
+
+Creado por Josué, estudiante de Educación en Idiomas (Universidad Nacional de Trujillo).
+
