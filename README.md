@@ -1,8 +1,6 @@
  1. README.md ajustado a tu `importos.py`
 
-Aquí tienes la versión lista en **Markdown** 👇
 
-````markdown
 # 🤖 Bot de frases esenciales en alemán 🇩🇪
 
 ¡Hallo! 👋  
